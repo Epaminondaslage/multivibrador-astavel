@@ -1,5 +1,5 @@
 
-# Multivibrador Astável com Dois Transistores
+# Multivibrador Astável com dois Transistores
 
 O circuito mostrado na imagem é um **multivibrador astável**, que gera uma **oscilação contínua** sem precisar de sinal externo. É amplamente usado em piscas-piscas, temporizadores simples e até em circuitos de áudio.
 
