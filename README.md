@@ -59,21 +59,19 @@ Ele alterna automaticamente entre dois estados, produzindo duas saídas:
 
 ## **Equações do Circuito**
 
-O período total da oscilação (**T**) pode ser estimado por:
+O período total da oscilação (T) pode ser estimado por:
 
-\[
-T \approx 0,693 \times (R2 + R3) \times C
-\]
+`T ≈ 0,693 × (R2 + R3) × C`
 
 Onde:
+
 - **C** → Capacitância (C1 = C2, caso sejam iguais).  
 - **R2** e **R3** → Resistores iguais para um circuito simétrico.
 
-A **frequência** de oscilação é dada por:
+A frequência de oscilação é dada por:
 
-\[
-f = \frac{1}{T}
-\]
+`f = 1 / T`
+
 
 > **Observação:** Se os resistores ou capacitores tiverem valores diferentes, o ciclo não será simétrico, resultando em tempos diferentes para nível alto e baixo.
 
