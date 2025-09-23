@@ -5,7 +5,9 @@ O **multivibrador astável** é um circuito eletrônico **oscilador** que gera *
 Ele alterna automaticamente entre dois estados, produzindo duas saídas:
 
 - **Q** → Saída direta (onda quadrada normal).  
-- **Q̅** → Saída inversora (onda quadrada com defasagem de 180° em relação à saída **Q**).
+- **Q̅** → Saída inversora (onda quadrada invertida, com defasagem de 180° em relação à saída **Q**).
+
+> **Nota:** Caso o caractere `Q̅` (Q barra) não seja exibido corretamente no seu visualizador, ele pode aparecer como **Q'** ou **Q_inv**.
 
 ---
 
@@ -51,7 +53,7 @@ Ele alterna automaticamente entre dois estados, produzindo duas saídas:
 | **Q1 e Q2** | Transistores que alternam entre saturação e corte, gerando a oscilação. |
 | **C1 e C2** | Determinam, junto com os resistores, o tempo de cada meio-ciclo da oscilação. |
 | **R2 e R3** | Controlam a polarização das bases dos transistores e definem, junto aos capacitores, a frequência. |
-| **R1 e R4** | Limitam a corrente nos LEDs ou saídas Q e Q̅. |
+| **R1 e R4** | Limitam a corrente nos LEDs ou saídas **Q** e **Q̅**. |
 
 ---
 
@@ -217,4 +219,3 @@ R2 e R3 indo das bases para Vcc
 ## **Resultados Esperados**
 - LEDs piscando **alternadamente** a cada ~1 segundo.  
 - Funcionamento estável com alimentação de **5V**.
-
