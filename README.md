@@ -59,7 +59,7 @@ Ele alterna automaticamente entre dois estados, produzindo duas saídas:
 
 ---
 
-<img src="fig1.png" alt="Circuito Multivibrador Astável" width="60%">
+<img src="fig1.png" alt="Circuito Multivibrador Astável" width="30%">
 
 ## **Funcionamento**
 1. **Início do ciclo**
@@ -103,7 +103,8 @@ T \approx 0,693 \times (R2 + R3) \times C
 Como o circuito é simétrico, a frequência (**f**) será:
 
 
-<img src="forma_onda.png" alt="forma de onda" width="60%">
+<img src="forma_onda.gif" alt="forma de onda" width="30%">
+
 \[
 f = \frac{1}{T}
 \]
