@@ -98,7 +98,7 @@ A frequência de oscilação é dada por:
 # **Aula Prática – Confecção de PCI para Multivibrador Astável**
 
 ## **Objetivo**
-Ensinar aos alunos como projetar, confeccionar e testar uma **placa de circuito impresso (PCI)** para um **multivibrador astável** que faz dois LEDs piscarem alternadamente.
+Mostrar aos alunos como projetar, confeccionar e testar uma **placa de circuito impresso (PCI)** para um **multivibrador astável** que faz dois LEDs piscarem alternadamente.
 
 ---
 
