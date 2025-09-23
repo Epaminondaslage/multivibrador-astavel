@@ -133,22 +133,16 @@ Mostrar aos alunos como projetar, confeccionar e testar uma **placa de circuito 
 ### **1. Estudo do Circuito**
 Apresentar o **esquemático** do multivibrador:
 
-```
-Vcc (5V) → R1 → LED1 → Coletor Q1
-Capacitor C1 cruzando para base Q2
-Vcc (5V) → R4 → LED2 → Coletor Q2
-Capacitor C2 cruzando para base Q1
-R2 e R3 indo das bases para Vcc
-```
+<img src="fig2.jpg" alt="Layout PCI Multivibrador Astável" width="40%">
 
-**Explicação:**
-- Quando **Q1 satura**, LED1 acende e LED2 apaga.  
-- Capacitores **C1 e C2** definem o tempo de comutação.  
-- LEDs alternam indefinidamente.
+---
+### **2. Desenho do circuito com os componetntes**
+
+<img src="multivibrador astavel com transistor | P1.Schematic2 | EasyEDA Pro - V2.2.40 2025-09-23 19-33-09.png" alt="Layout PCI Multivibrador Astável" width="60%">
 
 ---
 
-### **2. Desenho do Layout da PCI**
+### **3. Desenho do Layout da PCI**
 **Ferramentas sugeridas:**
 - **KiCad**, **EasyEDA**, **Proteus** ou **Fritzing**.
 
@@ -165,7 +159,7 @@ R2 e R3 indo das bases para Vcc
 
 ---
 
-### **3. Transferência para Placa Física**
+### **4. Transferência para Placa Física**
 1. Imprimir o layout **espelhado** em papel couchê ou sulfite.  
 2. Limpar a placa com **palha de aço** e álcool.  
 3. Transferir o desenho com ferro de passar ou laminadora.  
@@ -173,7 +167,7 @@ R2 e R3 indo das bases para Vcc
 
 ---
 
-### **4. Corrosão da Placa**
+### **5. Corrosão da Placa**
 1. Colocar a placa em recipiente plástico.  
 2. Cobrir com **percloreto de ferro**.  
 3. Mexer suavemente até remover todo o cobre exposto.  
@@ -183,13 +177,13 @@ R2 e R3 indo das bases para Vcc
 
 ---
 
-### **5. Furação**
+### **6. Furação**
 - Utilizar **broca de 1 mm** para resistores, LEDs e transistores.  
 - Furos maiores para conectores.
 
 ---
 
-### **6. Soldagem**
+### **7. Soldagem**
 **Dicas importantes:**
 - Soldar primeiro os **componentes menores**.  
 - Verificar **polaridade** de LEDs e capacitores.  
@@ -198,7 +192,7 @@ R2 e R3 indo das bases para Vcc
 
 ---
 
-### **7. Teste do Circuito**
+### **8. Teste do Circuito**
 1. Conectar a fonte de **5V**.  
 2. Observar os LEDs piscando alternadamente.  
 3. Caso haja falhas:  
@@ -208,11 +202,7 @@ R2 e R3 indo das bases para Vcc
 
 ---
 
-## **Layout Recomendado**
 
-<img src="fig2.jpg" alt="Layout PCI Multivibrador Astável" width="40%">
-
----
 
 ## **Resultados Esperados**
 - LEDs piscando **alternadamente** a cada ~1 segundo.  
