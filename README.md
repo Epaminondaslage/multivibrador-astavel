@@ -1,56 +1,4 @@
-
-# Multivibrador Astável com Dois Transistores
-
-O circuito mostrado na imagem é um **multivibrador astável**, que gera uma **oscilação contínua** sem precisar de sinal externo. É amplamente usado em piscas-piscas, temporizadores simples e até em circuitos de áudio.
-
----
-
-## **Como funciona**
-1. **Transistores alternando a condução**  
-   - Os transistores **Q1** e **Q2** (NPN) estão ligados em configuração cruzada.
-   - Quando **Q1 satura**, ele liga o LED1 e mantém o LED2 desligado.
-   - Ao mesmo tempo, o capacitor **C1** começa a carregar, criando um atraso.
-
-2. **Inversão automática**  
-   - Quando C1 termina de carregar, a polarização muda e **Q1 desliga**, enquanto **Q2 liga**, acendendo o LED2.
-   - O ciclo então se repete indefinidamente, fazendo os LEDs piscarem alternadamente.
-
----
-
-## **Função dos componentes**
-| Componente | Função |
-|-------------|--------|
-| **Q1 e Q2 (BC547)** | Alternam a condução, criando a oscilação. |
-| **C1 e C2 (100 µF)** | Determinam o tempo em que cada LED fica aceso (constante de tempo). |
-| **R2 e R3 (10 kΩ)** | Garantem a polarização correta das bases, controlando a corrente de disparo. |
-| **R1 e R4 (470 Ω)** | Limitam a corrente que passa pelos LEDs, protegendo-os. |
-| **LED1 e LED2** | Mostram visualmente o estado do circuito, piscando alternadamente. |
-| **Fonte (5 V)** | Alimenta o circuito. |
-
----
-
-## **Controle do tempo de piscada**
-O tempo em que cada LED fica aceso depende da constante de tempo **R × C**:
-
-```
-T = 0,693 × R × C
-```
-
-- Com **R = 10 kΩ** e **C = 100 µF**, cada LED fica aceso por aproximadamente **0,7 s**, resultando em um ciclo total de **~1,4 s**.
-- Para piscar **mais rápido**, use capacitores menores (ex.: 47 µF).
-- Para **piscar mais devagar**, use capacitores maiores (ex.: 220 µF).
-
----
-
-## **Aplicações práticas**
-- Luzes de decoração (pisca-pisca de Natal).
-- Sinalizadores de alerta.
-- Temporizadores básicos.
-- Geração de clock para circuitos digitais simples.
-- Base de estudo para flip-flops e eletrônica sequencial.
-
-
-# Multivibrador Astável com Dois Transistores – Saídas Q e Q̅
+# Multivibrador Astável com dois Transistores – Saídas Q e Q̅
 
 O circuito mostrado é um **multivibrador astável**, capaz de gerar **ondas quadradas contínuas** sem necessidade de sinal externo.  
 Ele alterna automaticamente entre dois estados, produzindo duas saídas:
@@ -59,7 +7,7 @@ Ele alterna automaticamente entre dois estados, produzindo duas saídas:
 
 ---
 
-<img src="fig1.png" alt="Circuito Multivibrador Astável" width="60%">
+<img src="fig1.png" alt="Circuito Multivibrador Astável" width="30%">
 
 ## **Funcionamento**
 1. **Início do ciclo**
@@ -103,7 +51,8 @@ T \approx 0,693 \times (R2 + R3) \times C
 Como o circuito é simétrico, a frequência (**f**) será:
 
 
-<img src="forma_onda.png" alt="forma de onda" width="60%">
+<img src="forma_onda.gif" alt="forma de onda" width="30%">
+
 \[
 f = \frac{1}{T}
 \]
@@ -118,6 +67,159 @@ f = \frac{1}{T}
   - Geração de clock para circuitos digitais
   - Pisca-pisca alternado
   - Temporizador simples
+
+---
+## **Aplicações práticas**
+- Luzes de decoração (pisca-pisca de Natal).
+- Sinalizadores de alerta.
+- Temporizadores básicos.
+- Geração de clock para circuitos digitais simples.
+- Base de estudo para flip-flops e eletrônica sequencial.
+
+- # Aula Prática – Confecção de PCI para Multivibrador Astável
+
+## Objetivo
+Ensinar aos alunos como projetar, confeccionar e testar uma **placa de circuito impresso (PCI)** para um **multivibrador astável** que faz dois LEDs piscarem alternadamente.
+
+---
+
+## Componentes utilizados
+
+| Componente | Quantidade | Função |
+|------------|------------|--------|
+| **BC547 (Q1 e Q2)** | 2 | Alternam a condução, criando a oscilação. |
+| **Capacitores 100 µF** | 2 | Definem o tempo em que cada LED fica aceso (constante de tempo). |
+| **Resistores 10 kΩ (R2 e R3)** | 2 | Polarizam as bases dos transistores. |
+| **Resistores 470 Ω (R1 e R4)** | 2 | Limitam a corrente que passa pelos LEDs. |
+| **LEDs** | 2 | Indicam visualmente a alternância do circuito. |
+| **Conector para fonte 5 V** | 1 | Alimenta o circuito. |
+| **Interruptor S1 (opcional)** | 1 | Liga/desliga o circuito. |
+
+---
+
+## Materiais para confecção da PCI
+
+- Placa fenolite cobreada (5 × 7 cm)
+- Percloreto de ferro ou solução para corrosão
+- Impressora a laser ou papel para transfer
+- Ferro de passar roupa ou laminadora
+- Fita isolante ou caneta para retoques
+- Furadeira manual ou mini-retífica (broca 1mm)
+- Estanho, ferro de solda e sugador
+- Multímetro
+
+---
+
+## Etapas da aula
+
+### 1. Estudo do circuito
+
+Apresentar o **esquemático** do multivibrador:
+
+```
+Vcc (5V) → R1 → LED1 → Coletor Q1
+Capacitor C1 cruzando para base Q2
+Vcc (5V) → R4 → LED2 → Coletor Q2
+Capacitor C2 cruzando para base Q1
+R2 e R3 indo das bases para Vcc
+```
+
+**Explicar o funcionamento:**
+- Quando **Q1 satura**, LED1 acende e LED2 apaga.
+- Capacitores **C1 e C2** definem o tempo de comutação.
+- LEDs alternam indefinidamente.
+
+---
+
+### 2. Desenho do layout da PCI
+
+**Ferramentas sugeridas:**
+- Software: **KiCad**, **EasyEDA**, **Proteus** ou **Fritzing**.
+
+**Passos:**
+1. Criar o desenho esquemático no software.
+2. Posicionar os componentes:
+   - LEDs na parte superior.
+   - Transistores próximos aos LEDs.
+   - Capacitores próximos às bases.
+   - Resistor de 470 Ω alinhado em série com cada LED.
+   - Conector de entrada de 5V no canto inferior.
+3. Definir trilhas grossas para alimentação (5V e GND).
+4. Adicionar nomeações e polaridade dos capacitores e LEDs.
+
+---
+
+### 3. Transferência para placa física
+
+**Passos:**
+1. Imprimir o layout **espelhado** em papel couchê ou sulfite.
+2. Limpar a placa fenolite com **palha de aço** e álcool.
+3. Posicionar a impressão sobre a placa e **transferir** usando:
+   - Ferro de passar (temperatura alta, sem vapor, por 5 min).
+   - Ou laminadora térmica (2–3 passagens).
+4. Mergulhar em água morna e remover o papel cuidadosamente.
+5. Retocar falhas com **caneta para circuito impresso**.
+
+---
+
+### 4. Corrosão da placa
+
+1. Colocar a placa em **recipiente plástico**.
+2. Cobrir com solução de **percloreto de ferro**.
+3. Mexer suavemente até que o cobre exposto desapareça.
+4. Lavar a placa em água corrente.
+5. Secar bem.
+
+⚠ **Segurança:** usar **luvas, óculos de proteção** e local ventilado.
+
+---
+
+### 5. Furação
+
+- Usar **broca de 1 mm** para furos de resistores, LEDs e transistores.
+- Furos maiores para o conector de alimentação.
+
+---
+
+### 6. Soldagem
+
+**Dicas:**
+- Começar soldando os **componentes menores** (resistores).
+- Depois capacitores, transistores, LEDs e conectores.
+- Observar a **polaridade dos LEDs e capacitores**.
+- Evitar excesso de solda.
+- Usar **sugador** para corrigir erros.
+
+---
+
+### 7. Teste do circuito
+
+1. Conectar a fonte de **5V**.
+2. Verificar se os LEDs piscam alternadamente.
+3. Caso um LED fique sempre aceso:
+   - Conferir **polaridade** dos capacitores e LEDs.
+   - Testar transistores com multímetro.
+4. Se ambos estiverem apagados, medir tensão na alimentação e bases.
+
+---
+
+## Layout recomendado
+
+<img src="fig2.jpg" alt="multivibrador astável" width="40%">
+
+---
+
+## Resultados esperados
+
+- LEDs piscando **alternadamente** a cada ~1 segundo.
+- Circuito funcionando de forma estável com alimentação de 5V.
+
+---
+
+## Sugestões de melhorias
+
+- Adicionar um **potenciômetro** em série com R2 e R3 para ajustar a velocidade de piscada.
+- Usar **conector USB** como entrada de 5V.
 
 ---
 
