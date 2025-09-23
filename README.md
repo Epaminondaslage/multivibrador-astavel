@@ -205,7 +205,7 @@ R2 e R3 indo das bases para Vcc
 
 ## Layout recomendado
 
-<img src="fig1.png" alt="Placa de circuito impresso para multivibrador astável" width="60%">
+<img src="fig2.jpg" alt="multivibrador astável" width="40%">
 
 ---
 
