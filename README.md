@@ -115,6 +115,7 @@ Mostrar aos alunos como projetar, confeccionar e testar uma **placa de circuito 
 | **Interruptor S1 (opcional)** | 1 | Liga/desliga o circuito. |
 
 ---
+<img src="kit.jpg" alt="kit" width="30%">
 
 ## **Materiais para Confecção da PCI**
 - Placa fenolite cobreada (5 × 7 cm)  
