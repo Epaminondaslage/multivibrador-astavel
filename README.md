@@ -141,8 +141,11 @@ Apresentar o **esquemático** do multivibrador:
 <img src="multivibrador astavel com transistor | P1.Schematic2 | EasyEDA Pro - V2.2.40 2025-09-23 19-33-09.png" alt="Layout PCI Multivibrador Astável" width="60%">
 
 ---
+### **3. montagem do circuito cem uma prot-o-board**
 
-### **3. Desenho do Layout da PCI**
+https://www.youtube.com/watch?v=0rsv6dMTNQA
+
+### **4. Desenho do Layout da PCI**
 **Ferramentas sugeridas:**
 - **KiCad**, **EasyEDA**, **Proteus** ou **Fritzing**.
 
@@ -159,7 +162,7 @@ Apresentar o **esquemático** do multivibrador:
 
 ---
 
-### **4. Transferência para Placa Física**
+### **5. Transferência para Placa Física**
 1. Imprimir o layout **espelhado** em papel couchê ou sulfite.  
 2. Limpar a placa com **palha de aço** e álcool.  
 3. Transferir o desenho com ferro de passar ou laminadora.  
@@ -167,7 +170,7 @@ Apresentar o **esquemático** do multivibrador:
 
 ---
 
-### **5. Corrosão da Placa**
+### **6. Corrosão da Placa**
 1. Colocar a placa em recipiente plástico.  
 2. Cobrir com **percloreto de ferro**.  
 3. Mexer suavemente até remover todo o cobre exposto.  
@@ -177,13 +180,13 @@ Apresentar o **esquemático** do multivibrador:
 
 ---
 
-### **6. Furação**
+### **7. Furação**
 - Utilizar **broca de 1 mm** para resistores, LEDs e transistores.  
 - Furos maiores para conectores.
 
 ---
 
-### **7. Soldagem**
+### **8. Soldagem**
 **Dicas importantes:**
 - Soldar primeiro os **componentes menores**.  
 - Verificar **polaridade** de LEDs e capacitores.  
@@ -192,7 +195,7 @@ Apresentar o **esquemático** do multivibrador:
 
 ---
 
-### **8. Teste do Circuito**
+### **9. Teste do Circuito**
 1. Conectar a fonte de **5V**.  
 2. Observar os LEDs piscando alternadamente.  
 3. Caso haja falhas:  
