@@ -208,14 +208,14 @@ https://www.youtube.com/watch?v=0rsv6dMTNQA
 ### **10. Montagem do circuito utilizando o Arduino
 
 
-# **Descrição do Código: Multivibrador Astável com Arduino Uno**
+#### **Descrição do Código: Multivibrador Astável com Arduino Uno**
 
 Este código implementa o funcionamento de um **multivibrador astável** utilizando um **Arduino Uno** e dois LEDs.  
 O objetivo é criar um efeito de **pisca-pisca alternado**, onde os LEDs acendem e apagam de forma intercalada em intervalos de tempo pré-definidos.
 
 ---
 
-## **Componentes Utilizados**
+#### **Componentes Utilizados**
 - **Arduino Uno**  
 - **2 LEDs** (exemplo: vermelho e verde)  
 - **2 resistores** de **220 Ω** (para limitar a corrente dos LEDs)
