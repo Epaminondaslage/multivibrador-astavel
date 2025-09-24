@@ -141,11 +141,12 @@ Apresentar o **esquemático** do multivibrador:
 <img src="multivibrador astavel com transistor | P1.Schematic2 | EasyEDA Pro - V2.2.40 2025-09-23 19-33-09.png" alt="Layout PCI Multivibrador Astável" width="60%">
 
 ---
-### **3. montagem do circuito cem uma prot-o-board**
+### **3. Montagem do circuito em uma protoboard**
 
 https://www.youtube.com/watch?v=0rsv6dMTNQA
 
 ### **4. Desenho do Layout da PCI**
+
 **Ferramentas sugeridas:**
 - **KiCad**, **EasyEDA**, **Proteus** ou **Fritzing**.
 
@@ -204,9 +205,6 @@ https://www.youtube.com/watch?v=0rsv6dMTNQA
    - Conferir a tensão de alimentação.
 
 ---
+### **10. Montagem do circuito utilizando o Arduino
 
-
-
-## **Resultados Esperados**
-- LEDs piscando **alternadamente** a cada ~1 segundo.  
-- Funcionamento estável com alimentação de **5V**.
+<img src="arduino_astavel.jpg" alt="Arduino Astável" width="60%">
