@@ -13,8 +13,9 @@ void setup() {
 void loop() {
   digitalWrite(led1, HIGH); // Acende o LED 1
   digitalWrite(led2, LOW);  // Apaga o LED 2
-  delay(500); // Aguarda 500ms
+  delay(700); // Aguarda 500ms
 
   digitalWrite(led1, LOW);  // Apaga o LED 1
   digitalWrite(led2, HIGH); // Acende o LED 2
-  delay(500); // Aguarda 500ms
+  delay(700); // Aguarda 500ms
+}
