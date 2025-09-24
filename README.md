@@ -141,11 +141,12 @@ Apresentar o **esquemático** do multivibrador:
 <img src="multivibrador astavel com transistor | P1.Schematic2 | EasyEDA Pro - V2.2.40 2025-09-23 19-33-09.png" alt="Layout PCI Multivibrador Astável" width="60%">
 
 ---
-### **3. montagem do circuito cem uma prot-o-board**
+### **3. Montagem do circuito em uma protoboard**
 
 https://www.youtube.com/watch?v=0rsv6dMTNQA
 
 ### **4. Desenho do Layout da PCI**
+
 **Ferramentas sugeridas:**
 - **KiCad**, **EasyEDA**, **Proteus** ou **Fritzing**.
 
@@ -204,9 +205,19 @@ https://www.youtube.com/watch?v=0rsv6dMTNQA
    - Conferir a tensão de alimentação.
 
 ---
+### **10. Montagem do circuito utilizando o Arduino
 
 
+#### **Descrição do Código: Multivibrador Astável com Arduino Uno**
 
-## **Resultados Esperados**
-- LEDs piscando **alternadamente** a cada ~1 segundo.  
-- Funcionamento estável com alimentação de **5V**.
+Este código implementa o funcionamento de um **multivibrador astável** utilizando um **Arduino Uno** e dois LEDs.  
+O objetivo é criar um efeito de **pisca-pisca alternado**, onde os LEDs acendem e apagam de forma intercalada em intervalos de tempo pré-definidos.
+
+---
+
+#### **Componentes Utilizados**
+- **Arduino Uno**  
+- **2 LEDs** (exemplo: vermelho e verde)  
+- **2 resistores** de **220 Ω** (para limitar a corrente dos LEDs)
+
+<img src="astavel-arduino.jpg" alt="Arduino Astável" width="60%">
