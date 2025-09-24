@@ -144,7 +144,10 @@ Apresentar o **esquemático** do multivibrador:
 ---
 ### **3. Montagem do circuito em uma protoboard**
 
-https://www.youtube.com/watch?v=0rsv6dMTNQA
+
+<img src="astavel_protoboard.jpg" alt="protoboardl" width="60%">
+
+Video no Youtube: https://www.youtube.com/watch?v=0rsv6dMTNQA
 
 ### **4. Desenho do Layout da PCI**
 
