@@ -139,13 +139,18 @@ Apresentar o **esquemático** do multivibrador:
 ---
 ### **2. Desenho do circuito com os componetntes**
 
-<img src="multivibrador astavel com transistor | P1.Schematic2 | EasyEDA Pro - V2.2.40 2025-09-23 19-33-09.png" alt="Layout PCI Multivibrador Astável" width="60%">
+<img src="circuito_1.jpg" alt="Layout PCI Multivibrador Astável" width="40%">
 
 ---
-### **3. Montagem do circuito em uma protoboard**
+### **3. Montagem do circuito em uma PCB**
 
 
-<img src="astavel_protoboard.jpg" alt="protoboardl" width="60%">
+<img src="circuito_2.jpg" alt="pcb1" width="40%">
+
+<img src="circuito_3.jpg" alt="pcb2" width="40%">
+
+<img src="circuito_4.jpg" alt="pcb2" width="40%">
+
 
 Video no Youtube: https://www.youtube.com/watch?v=0rsv6dMTNQA
 
@@ -153,6 +158,49 @@ Video no Youtube: https://www.youtube.com/watch?v=0rsv6dMTNQA
 
 **Ferramentas sugeridas:**
 - **KiCad**, **EasyEDA**, **Proteus** ou **Fritzing**.
+
+  # Ferramenta CAD Utilizada: EasyEDA
+
+Neste projeto utilizamos o **[EasyEDA](https://easyeda.com/)** por ser uma plataforma **gratuita**, **simples** e **fácil de operar**, ideal para o desenvolvimento de **esquemáticos** e **placas de circuito impresso (PCBs)**.
+
+## **Motivos da Escolha**
+- 💻 **Plataforma online**, sem necessidade de instalação.  
+- 📚 **Biblioteca extensa** de componentes, incluindo códigos **LCSC** para integração direta com fornecedores.  
+- ⚡ **Ferramentas integradas** para captura de esquemático, layout de PCB e simulação.  
+- 📝 **Geração automática** de arquivos de produção:  
+  - **Gerbers**  
+  - **BOM (Bill of Materials)**  
+  - **Pick & Place**  
+- 🔗 **Integração com serviços de fabricação e montagem** diretamente pela plataforma.
+
+## **Fluxo de Trabalho Simplificado**
+1. **Criação do Esquemático**  
+   - Inserção de símbolos e conexões utilizando etiquetas de rede (*NetLabels*).  
+
+2. **Anotação Automática (RefDes)**  
+   - Numeração dos componentes e verificação elétrica (*ERC*).  
+
+3. **Associação de Footprints**  
+   - Vincular corretamente cada componente ao respectivo encapsulamento físico.
+
+4. **Posicionamento e Roteamento**  
+   - Organização física dos componentes e roteamento das trilhas de forma manual ou semi-automática.
+
+5. **Verificação DRC**  
+   - Conferência das regras de design conforme especificações do fabricante da PCB.
+
+6. **Geração de Arquivos Finais**  
+   - Exportação dos arquivos necessários para fabricação e montagem.
+
+---
+
+> **Acesse a ferramenta:** [https://easyeda.com/](https://easyeda.com/)  
+> O EasyEDA é uma solução completa para projetos eletrônicos, desde a concepção até a produção.
+
+<img src="easyEDA.jpg" alt="software" width="40%">
+
+
+  
 
 **Passos:**
 1. Criar o esquema no software.  
