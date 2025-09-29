@@ -56,7 +56,7 @@ Ele alterna automaticamente entre dois estados, produzindo duas saídas:
 | **R1 e R4** | Limitam a corrente nos LEDs ou saídas **Q** e **Q̅**. |
 
 
-<img src="componentes.jpg" alt="componentes" width="50%">
+<img src="componentes.jpg" alt="componentes" width="30%">
 
 ---
 
