@@ -115,6 +115,7 @@ Mostrar aos alunos como projetar, confeccionar e testar uma **placa de circuito 
 | **Interruptor S1 (opcional)** | 1 | Liga/desliga o circuito. |
 
 ---
+<img src="kit.jpg" alt="kit" width="30%">
 
 ## **Materiais para Confecção da PCI**
 - Placa fenolite cobreada (5 × 7 cm)  
@@ -143,7 +144,10 @@ Apresentar o **esquemático** do multivibrador:
 ---
 ### **3. Montagem do circuito em uma protoboard**
 
-https://www.youtube.com/watch?v=0rsv6dMTNQA
+
+<img src="astavel_protoboard.jpg" alt="protoboardl" width="60%">
+
+Video no Youtube: https://www.youtube.com/watch?v=0rsv6dMTNQA
 
 ### **4. Desenho do Layout da PCI**
 
