@@ -55,6 +55,9 @@ Ele alterna automaticamente entre dois estados, produzindo duas saídas:
 | **R2 e R3** | Controlam a polarização das bases dos transistores e definem, junto aos capacitores, a frequência. |
 | **R1 e R4** | Limitam a corrente nos LEDs ou saídas **Q** e **Q̅**. |
 
+
+<img src="componentes.jpg" alt="componentes" width="50%">
+
 ---
 
 ## **Equações do Circuito**
