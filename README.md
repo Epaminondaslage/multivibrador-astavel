@@ -139,13 +139,16 @@ Apresentar o **esquemático** do multivibrador:
 ---
 ### **2. Desenho do circuito com os componetntes**
 
-<img src="multivibrador astavel com transistor | P1.Schematic2 | EasyEDA Pro - V2.2.40 2025-09-23 19-33-09.png" alt="Layout PCI Multivibrador Astável" width="60%">
+<img src="circuito_1.jpg" alt="Layout PCI Multivibrador Astável" width="60%">
 
 ---
-### **3. Montagem do circuito em uma protoboard**
+### **3. Montagem do circuito em uma PCB**
 
 
-<img src="astavel_protoboard.jpg" alt="protoboardl" width="60%">
+<img src="circuito_2.jpg" alt="pcb1" width="60%">
+
+<img src="circuito_3.jpg" alt="pcb2" width="60%">
+
 
 Video no Youtube: https://www.youtube.com/watch?v=0rsv6dMTNQA
 
@@ -153,6 +156,11 @@ Video no Youtube: https://www.youtube.com/watch?v=0rsv6dMTNQA
 
 **Ferramentas sugeridas:**
 - **KiCad**, **EasyEDA**, **Proteus** ou **Fritzing**.
+
+  Neste nosso uso foi utilizado o EasyEDA por ser gratuito, simple e fácil de operar
+
+<img src="easyeda.jpg" alt="software" width="60%">
+  
 
 **Passos:**
 1. Criar o esquema no software.  
