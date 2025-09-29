@@ -162,11 +162,11 @@ Video no Youtube: https://www.youtube.com/watch?v=0rsv6dMTNQA
 **Ferramentas sugeridas:**
 - **KiCad**, **EasyEDA**, **Proteus** ou **Fritzing**.
 
-  # Ferramenta CAD Utilizada: EasyEDA
+### Ferramenta CAD Utilizada: EasyEDA
 
 Neste projeto utilizamos o **[EasyEDA](https://easyeda.com/)** por ser uma plataforma **gratuita**, **simples** e **fácil de operar**, ideal para o desenvolvimento de **esquemáticos** e **placas de circuito impresso (PCBs)**.
 
-## **Motivos da Escolha**
+### **Motivos da Escolha**
 - 💻 **Plataforma online**, sem necessidade de instalação.  
 - 📚 **Biblioteca extensa** de componentes, incluindo códigos **LCSC** para integração direta com fornecedores.  
 - ⚡ **Ferramentas integradas** para captura de esquemático, layout de PCB e simulação.  
@@ -176,7 +176,7 @@ Neste projeto utilizamos o **[EasyEDA](https://easyeda.com/)** por ser uma plata
   - **Pick & Place**  
 - 🔗 **Integração com serviços de fabricação e montagem** diretamente pela plataforma.
 
-## **Fluxo de Trabalho Simplificado**
+### **Fluxo de Trabalho Simplificado**
 1. **Criação do Esquemático**  
    - Inserção de símbolos e conexões utilizando etiquetas de rede (*NetLabels*).  
 
@@ -202,8 +202,6 @@ Neste projeto utilizamos o **[EasyEDA](https://easyeda.com/)** por ser uma plata
 
 <img src="easyEDA.jpg" alt="software" width="40%">
 
-
-  
 
 **Passos:**
 1. Criar o esquema no software.  
