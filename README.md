@@ -5,15 +5,15 @@
 ## **Aula Prática – Confecção de PCI para Multivibrador Astável**
 
 
-## **Título: ** 
+## Título
 Multivibrador Astável com Dois Transistores 
 
-## **Objetivo**
+## Objetivo
 Mostrar aos alunos como projetar, confeccionar e testar uma **placa de circuito impresso (PCI)** para um **multivibrador astável** que faz dois LEDs piscarem alternadamente.
 
 ---
 
-## **Componentes Utilizados**
+## Componentes Utilizados
 
 | **Componente** | **Quantidade** | **Função** |
 |----------------|----------------|------------|
@@ -28,7 +28,8 @@ Mostrar aos alunos como projetar, confeccionar e testar uma **placa de circuito 
 ---
 <img src="kit.jpg" alt="kit" width="30%">
 
-## **Materiais para Confecção da PCI**
+## Materiais para Confecção da PCI
+
 - Placa fenolite cobreada (5 × 7 cm)  
 - Percloreto de ferro ou solução para corrosão  
 - Impressora a laser ou papel para transfer  
@@ -40,7 +41,7 @@ Mostrar aos alunos como projetar, confeccionar e testar uma **placa de circuito 
 
 ---
 
-## **Etapas da Aula**
+## Etapas da Aula
 
 ### A. Fundamentação Teórica 
 
