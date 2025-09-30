@@ -99,7 +99,7 @@ Os capacitores são representados por símbolos diferentes dependendo do **tipo*
 Eles indicam se o capacitor é **polarizado** (tem positivo e negativo) ou **não polarizado**.
 
 
-<img src="simbologia_capacitores.webp" alt="simbologia_capacitores" width="50%">
+<img src="simbologia_capacitores.webp" alt="simbologia_capacitores" width="30%">
 
 Símbolo clássico usado em capacitores cerâmicos, de poliéster, mica, entre outros.  
 Representa apenas duas placas paralelas
