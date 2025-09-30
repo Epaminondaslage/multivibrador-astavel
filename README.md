@@ -103,7 +103,7 @@ O coração deste circuito é o **[transistor BJT](transistor-BJT.md)**, um disp
 | **Componente** | **Função** |
 |----------------|------------|
 | **Q1 e Q2** | [Transistores](transistor-BJT.md) que alternam entre saturação e corte, gerando a oscilação. |
-| **C1 e C2** | [Capacitores](capacitores.md)Determinam, junto com os resistores, o tempo de cada meio-ciclo da oscilação. |
+| **C1 e C2** | [Capacitores](capacitores.md) determinam, junto com os resistores, o tempo de cada meio-ciclo da oscilação. |
 | **R2 e R3** | Controlam a polarização das bases dos transistores e definem, junto aos capacitores, a frequência. |
 | **R1 e R4** | Limitam a corrente nos LEDs ou saídas **Q** e **Q̅**. |
 
