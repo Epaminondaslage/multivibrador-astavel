@@ -91,3 +91,22 @@ A grandeza que caracteriza o capacitor é a **capacitância (C)**, medida em **f
 - **Osciladores**: fundamentais em rádios e multivibradores.
 
 ---
+
+## 7. Simbologia
+
+
+Os capacitores são representados por símbolos diferentes dependendo do **tipo** e da **norma técnica** (ANSI ou IEC).  
+Eles indicam se o capacitor é **polarizado** (tem positivo e negativo) ou **não polarizado**.
+
+---
+
+## 1. Capacitor Não Polarizado
+
+<img src="simbologia_capacitores.webp" alt="simbologia_capacitores" width="50%">
+
+Símbolo clássico usado em capacitores cerâmicos, de poliéster, mica, entre outros.  
+Representa apenas duas placas paralelas
+
+## 2. Capacitor Polarizado (Eletrolítico)
+Possui polaridade definida (**positivo** e **negativo**).  
+O símbolo geralmente mostra uma das placas curva
