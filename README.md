@@ -79,7 +79,7 @@ O coração deste circuito é o **[transistor BJT](transistor-BJT.md)**, um disp
 ---
 
 ### **2. Carregamento dos [capacitores](capacitores.md) (C1 e C2)**
-- O [capacitor](capacitores.md) **C1** começa a **carregar** através do resistor **R2**, criando um **atraso controlado**.  
+- O capacitor **C1** começa a **carregar** através do resistor **R2**, criando um **atraso controlado**.  
 - Quando a tensão no capacitor atingir o **limiar de disparo**, **Q1 desliga** e **Q2 liga**.
 
 ---
@@ -102,8 +102,8 @@ O coração deste circuito é o **[transistor BJT](transistor-BJT.md)**, um disp
 
 | **Componente** | **Função** |
 |----------------|------------|
-| **Q1 e Q2** | Transistores que alternam entre saturação e corte, gerando a oscilação. |
-| **C1 e C2** | Determinam, junto com os resistores, o tempo de cada meio-ciclo da oscilação. |
+| **Q1 e Q2** | [Transistores](transistor-BJT.md) que alternam entre saturação e corte, gerando a oscilação. |
+| **C1 e C2** | [Capacitores](capacitores.md)Determinam, junto com os resistores, o tempo de cada meio-ciclo da oscilação. |
 | **R2 e R3** | Controlam a polarização das bases dos transistores e definem, junto aos capacitores, a frequência. |
 | **R1 e R4** | Limitam a corrente nos LEDs ou saídas **Q** e **Q̅**. |
 
