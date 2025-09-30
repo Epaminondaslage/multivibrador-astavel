@@ -53,18 +53,14 @@ A grandeza que caracteriza o capacitor é a **capacitância (C)**, medida em **f
 ## 4. Fórmulas Importantes
 
 ### 4.1 Carga armazenada
-\[
-Q = C \cdot V
-\]
+`Q = C · V`
 
 - **Q**: carga elétrica (coulombs)  
 - **C**: capacitância (farads)  
 - **V**: tensão (volts)
 
 ### 4.2 Energia armazenada
-\[
-E = \frac{1}{2} C \cdot V^2
-\]
+`E = 1/2 · C · V²`
 
 - **E**: energia (joules)
 
