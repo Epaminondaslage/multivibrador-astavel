@@ -1,4 +1,4 @@
-# Tutorial sobre Capacitores
+# Mini Tutorial sobre Capacitores
 
 ## 1. O que é um Capacitor?
 Um **capacitor** é um componente eletrônico capaz de **armazenar energia elétrica** na forma de campo elétrico.  
