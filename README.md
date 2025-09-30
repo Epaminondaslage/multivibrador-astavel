@@ -1,104 +1,12 @@
 
-# **Multivibrador Astável com Dois Transistores – Saídas Q e Q̅**
+# DEE- Curso de Eletrotécnica 
+# Laboratório de Instalações Prediais
 
-O **multivibrador astável** é um circuito eletrônico **oscilador** que gera **ondas quadradas contínuas** sem necessidade de sinal externo.  
-Ele alterna automaticamente entre dois estados, produzindo duas saídas:
-
-- **Q** → Saída direta (onda quadrada normal).  
-- **Q̅** → Saída inversora (onda quadrada invertida, com defasagem de 180° em relação à saída **Q**).
-
-> **Nota:** Caso o caractere `Q̅` (Q barra) não seja exibido corretamente no seu visualizador, ele pode aparecer como **Q'** ou **Q_inv**.
-
----
-
-<img src="fig1.png" alt="Circuito Multivibrador Astável" width="30%">
-
----
-
-## **Princípio de Funcionamento**
-
-### **1. Início do ciclo**
-- Suponha que o transistor **Q1** esteja saturado (**ligado**).  
-- Nesse momento, o transistor **Q2** estará em corte (**desligado**).  
-- Assim:
-  - **Saída Q** → Nível **baixo (0)**.  
-  - **Saída Q̅** → Nível **alto (1)**.
-
----
-
-### **2. Carregamento dos capacitores (C1 e C2)**
-- O capacitor **C1** começa a **carregar** através do resistor **R2**, criando um **atraso controlado**.  
-- Quando a tensão no capacitor atingir o **limiar de disparo**, **Q1 desliga** e **Q2 liga**.
-
----
-
-### **3. Troca de estados**
-- Agora, o transistor **Q2** entra em saturação, invertendo as saídas:
-  - **Saída Q̅** → Vai para nível **baixo (0)**.  
-  - **Saída Q** → Vai para nível **alto (1)**.
-- Ao mesmo tempo, **C2** começa a carregar, preparando a próxima comutação.
-
----
-
-### **4. Oscilação contínua**
-- O processo se repete indefinidamente, produzindo sinais alternados nas saídas.  
-- O resultado é uma **onda quadrada** contínua, ideal para gerar **clocks** e sinais digitais.
-
----
-
-## **Função dos Componentes**
-
-| **Componente** | **Função** |
-|----------------|------------|
-| **Q1 e Q2** | Transistores que alternam entre saturação e corte, gerando a oscilação. |
-| **C1 e C2** | Determinam, junto com os resistores, o tempo de cada meio-ciclo da oscilação. |
-| **R2 e R3** | Controlam a polarização das bases dos transistores e definem, junto aos capacitores, a frequência. |
-| **R1 e R4** | Limitam a corrente nos LEDs ou saídas **Q** e **Q̅**. |
+## **Aula Prática – Confecção de PCI para Multivibrador Astável**
 
 
-<img src="componentes.jpg" alt="componentes" width="30%">
-
----
-
-## **Equações do Circuito**
-
-O período total da oscilação (T) pode ser estimado por:
-
-`T ≈ 0,693 × (R2 + R3) × C`
-
-Onde:
-
-- **C** → Capacitância (C1 = C2, caso sejam iguais).  
-- **R2** e **R3** → Resistores iguais para um circuito simétrico.
-
-A frequência de oscilação é dada por:
-
-`f = 1 / T`
-
-
-> **Observação:** Se os resistores ou capacitores tiverem valores diferentes, o ciclo não será simétrico, resultando em tempos diferentes para nível alto e baixo.
-
----
-
-## **Forma de Onda**
-
-<img src="forma_onda.gif" alt="forma de onda" width="30%">
-
-- A saída **Q** gera uma **onda quadrada**.  
-- A saída **Q̅** gera uma **onda quadrada invertida**, defasada 180° em relação à saída **Q**.
-
----
-
-## **Aplicações Práticas**
-- Luzes de decoração (pisca-pisca de Natal).  
-- Sinalizadores de alerta.  
-- Temporizadores básicos.  
-- Geração de clock para circuitos digitais simples.  
-- Base de estudo para flip-flops e eletrônica sequencial.
-
----
-
-# **Aula Prática – Confecção de PCI para Multivibrador Astável**
+## **Título: ** 
+Multivibrador Astável com Dois Transistores 
 
 ## **Objetivo**
 Mostrar aos alunos como projetar, confeccionar e testar uma **placa de circuito impresso (PCI)** para um **multivibrador astável** que faz dois LEDs piscarem alternadamente.
@@ -134,7 +42,108 @@ Mostrar aos alunos como projetar, confeccionar e testar uma **placa de circuito 
 
 ## **Etapas da Aula**
 
-### **1. Estudo do Circuito**
+### A. Fundamentação Teórica 
+
+O **multivibrador astável** é um circuito eletrônico **oscilador** que gera **ondas quadradas contínuas** sem necessidade de sinal externo.  
+Ele alterna automaticamente entre dois estados, produzindo duas saídas:
+
+- **Q** → Saída direta (onda quadrada normal).  
+- **Q̅** → Saída inversora (onda quadrada invertida, com defasagem de 180° em relação à saída **Q**).
+
+> **Nota:** Caso o caractere `Q̅` (Q barra) não seja exibido corretamente no seu visualizador, ele pode aparecer como **Q'** ou **Q_inv**.
+
+---
+
+<img src="fig1.png" alt="Circuito Multivibrador Astável" width="30%">
+
+---
+
+### **Princípio de Funcionamento**
+
+### **1. Início do ciclo**
+- Suponha que o transistor **Q1** esteja saturado (**ligado**).  
+- Nesse momento, o transistor **Q2** estará em corte (**desligado**).  
+- Assim:
+  - **Saída Q** → Nível **baixo (0)**.  
+  - **Saída Q̅** → Nível **alto (1)**.
+
+---
+
+### **2. Carregamento dos capacitores (C1 e C2)**
+- O capacitor **C1** começa a **carregar** através do resistor **R2**, criando um **atraso controlado**.  
+- Quando a tensão no capacitor atingir o **limiar de disparo**, **Q1 desliga** e **Q2 liga**.
+
+---
+
+### **3. Troca de estados**
+- Agora, o transistor **Q2** entra em saturação, invertendo as saídas:
+  - **Saída Q̅** → Vai para nível **baixo (0)**.  
+  - **Saída Q** → Vai para nível **alto (1)**.
+- Ao mesmo tempo, **C2** começa a carregar, preparando a próxima comutação.
+
+---
+
+### **4. Oscilação contínua**
+- O processo se repete indefinidamente, produzindo sinais alternados nas saídas.  
+- O resultado é uma **onda quadrada** contínua, ideal para gerar **clocks** e sinais digitais.
+
+---
+
+### **5.Função dos Componentes**
+
+| **Componente** | **Função** |
+|----------------|------------|
+| **Q1 e Q2** | Transistores que alternam entre saturação e corte, gerando a oscilação. |
+| **C1 e C2** | Determinam, junto com os resistores, o tempo de cada meio-ciclo da oscilação. |
+| **R2 e R3** | Controlam a polarização das bases dos transistores e definem, junto aos capacitores, a frequência. |
+| **R1 e R4** | Limitam a corrente nos LEDs ou saídas **Q** e **Q̅**. |
+
+
+<img src="componentes.jpg" alt="componentes" width="30%">
+
+---
+
+### **6.Equações do Circuito**
+
+O período total da oscilação (T) pode ser estimado por:
+
+`T ≈ 0,693 × (R2 + R3) × C`
+
+Onde:
+
+- **C** → Capacitância (C1 = C2, caso sejam iguais).  
+- **R2** e **R3** → Resistores iguais para um circuito simétrico.
+
+A frequência de oscilação é dada por:
+
+`f = 1 / T`
+
+
+> **Observação:** Se os resistores ou capacitores tiverem valores diferentes, o ciclo não será simétrico, resultando em tempos diferentes para nível alto e baixo.
+
+---
+
+### **7.Forma de Onda**
+
+<img src="forma_onda.gif" alt="forma de onda" width="30%">
+
+- A saída **Q** gera uma **onda quadrada**.  
+- A saída **Q̅** gera uma **onda quadrada invertida**, defasada 180° em relação à saída **Q**.
+
+---
+
+### **8.Aplicações Práticas**
+- Luzes de decoração (pisca-pisca de Natal).  
+- Sinalizadores de alerta.  
+- Temporizadores básicos.  
+- Geração de clock para circuitos digitais simples.  
+- Base de estudo para flip-flops e eletrônica sequencial.
+
+---
+
+## **B. Parte Prática : 
+
+### **1.Estudo do Circuito**
 Apresentar o **esquemático** do multivibrador:
 
 <img src="fig2.jpg" alt="Layout PCI Multivibrador Astável" width="40%">
@@ -177,22 +186,22 @@ Neste projeto utilizamos o **[EasyEDA](https://easyeda.com/)** por ser uma plata
 - 🔗 **Integração com serviços de fabricação e montagem** diretamente pela plataforma.
 
 ### **Fluxo de Trabalho Simplificado**
-1. **Criação do Esquemático**  
+a. **Criação do Esquemático**  
    - Inserção de símbolos e conexões utilizando etiquetas de rede (*NetLabels*).  
 
-2. **Anotação Automática (RefDes)**  
+b. **Anotação Automática (RefDes)**  
    - Numeração dos componentes e verificação elétrica (*ERC*).  
 
-3. **Associação de Footprints**  
+c. **Associação de Footprints**  
    - Vincular corretamente cada componente ao respectivo encapsulamento físico.
 
-4. **Posicionamento e Roteamento**  
+d. **Posicionamento e Roteamento**  
    - Organização física dos componentes e roteamento das trilhas de forma manual ou semi-automática.
 
-5. **Verificação DRC**  
+e. **Verificação DRC**  
    - Conferência das regras de design conforme especificações do fabricante da PCB.
 
-6. **Geração de Arquivos Finais**  
+f. **Geração de Arquivos Finais**  
    - Exportação dos arquivos necessários para fabricação e montagem.
 
 ---
@@ -258,17 +267,17 @@ Neste projeto utilizamos o **[EasyEDA](https://easyeda.com/)** por ser uma plata
    - Conferir a tensão de alimentação.
 
 ---
-### **10. Montagem do circuito utilizando o Arduino
+## C.Montagem do circuito utilizando o Arduino
 
 
-#### **Descrição do Código: Multivibrador Astável com Arduino Uno**
+### 1. **Descrição do Código: Multivibrador Astável com Arduino Uno**
 
 Este código implementa o funcionamento de um **multivibrador astável** utilizando um **Arduino Uno** e dois LEDs.  
 O objetivo é criar um efeito de **pisca-pisca alternado**, onde os LEDs acendem e apagam de forma intercalada em intervalos de tempo pré-definidos.
 
 ---
 
-#### **Componentes Utilizados**
+### 2. **Componentes Utilizados**
 - **Arduino Uno**  
 - **2 LEDs** (exemplo: vermelho e verde)  
 - **2 resistores** de **220 Ω** (para limitar a corrente dos LEDs)
