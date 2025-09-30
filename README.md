@@ -142,7 +142,7 @@ A frequência de oscilação é dada por:
 
 ---
 
-## **B. Parte Prática : 
+## B. Parte Prática 
 
 ### **1.Estudo do Circuito**
 Apresentar o **esquemático** do multivibrador:
