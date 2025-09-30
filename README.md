@@ -79,7 +79,7 @@ O coração deste circuito é o **[transistor BJT](transistor-BJT.md)**, um disp
 ---
 
 ### **2. Carregamento dos capacitores (C1 e C2)**
-- O capacitor **C1** começa a **carregar** através do resistor **R2**, criando um **atraso controlado**.  
+- O [capacitor](capacitores.md) **C1** começa a **carregar** através do resistor **R2**, criando um **atraso controlado**.  
 - Quando a tensão no capacitor atingir o **limiar de disparo**, **Q1 desliga** e **Q2 liga**.
 
 ---
