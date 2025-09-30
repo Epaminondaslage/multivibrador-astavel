@@ -46,7 +46,7 @@ R = (5 V - 2 V) / 0,015 A ≈ 200 Ω
 ## 5. Simbologia
 Símbolo elétrico do LED:
 
-![led.png](simbologia de led)
+![leds.png](simbologia de led)
 
 (Setas representam emissão de luz)
 
@@ -59,16 +59,3 @@ Símbolo elétrico do LED:
 - Sensores ópticos (em conjunto com fotodiodos).
 
 ---
-
-## 7. Experimento Simples
-**Materiais:**
-- LED vermelho  
-- Resistor de 220 Ω  
-- Fonte de 5 V (ou Arduino)
-
-**Montagem:**
-1. Conecte o resistor ao ânodo (+) do LED.  
-2. Ligue o outro lado do resistor ao positivo da fonte (5 V).  
-3. Conecte o cátodo (–) do LED ao GND.  
-
-O LED acenderá com brilho seguro.
