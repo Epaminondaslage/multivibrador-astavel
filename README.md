@@ -6,10 +6,11 @@
 
 
 ## Título
-Multivibrador Astável com Dois Transistores 
+Multivibrador Astável com dois Transistores 
 
-## Objetivo
-Mostrar aos alunos como projetar, confeccionar e testar uma **placa de circuito impresso (PCI)** para um **multivibrador astável** que faz dois LEDs piscarem alternadamente.
+## Objetivos
+- Mostrar aos alunos como projetar, confeccionar e testar uma **placa de circuito impresso (PCI)** para um **multivibrador astável** que faz dois LEDs piscarem alternadamente.
+- Implementar o mesmo circuito utilizando um **Arduino** e comparar os princípios de funcionamento de ambos.
 
 ---
 
@@ -268,7 +269,7 @@ f. **Geração de Arquivos Finais**
    - Conferir a tensão de alimentação.
 
 ---
-## C.Montagem do circuito utilizando o Arduino
+## C. Montagem do circuito utilizando o Arduino
 
 
 ### 1. **Descrição do Código: Multivibrador Astável com Arduino Uno**
