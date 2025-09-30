@@ -8,9 +8,14 @@
 ## Título
 Multivibrador Astável com dois Transistores 
 
-## Objetivos
-- Mostrar aos alunos como projetar, confeccionar e testar uma **placa de circuito impresso (PCI)** para um **multivibrador astável** que faz dois LEDs piscarem alternadamente.
-- Implementar o mesmo circuito utilizando um **Arduino** e comparar os princípios de funcionamento de ambos.
+## Objetivos da Prática
+
+- **Compreender o funcionamento do multivibrador astável** utilizando transistores BJT, analisando como a realimentação cruzada entre capacitores e resistores gera a oscilação.  
+- **Desenvolver habilidades práticas de eletrônica** através do projeto, confecção e teste de uma placa de circuito impresso (PCI) para o circuito.  
+- **Observar na prática o piscar alternado de dois LEDs**, entendendo a relação entre a constante de tempo RC e a frequência de oscilação.  
+- **Comparar soluções analógica e digital**, implementando o mesmo efeito com Arduino e destacando as diferenças nos princípios de funcionamento entre hardware discreto e programação.  
+- **Estimular a análise crítica** sobre vantagens, limitações e aplicações reais do multivibrador em sistemas eletrônicos.  
+
 
 ---
 
@@ -101,7 +106,7 @@ Ele alterna automaticamente entre dois estados, produzindo duas saídas:
 | **R1 e R4** | Limitam a corrente nos LEDs ou saídas **Q** e **Q̅**. |
 
 
-<img src="componentes.jpg" alt="componentes" width="30%">
+<img src="componentes.jpg" alt="componentes" width="50%">
 
 ---
 
