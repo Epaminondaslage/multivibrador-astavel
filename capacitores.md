@@ -4,9 +4,6 @@
 Um **capacitor** é um componente eletrônico capaz de **armazenar energia elétrica** na forma de campo elétrico.  
 Ele é formado basicamente por **duas placas condutoras** separadas por um material isolante (dielétrico).
 
-- **Símbolo**:  
-  - Polarizado: ![símbolo capacitor eletrolítico](https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Electrolytic_capacitor_symbol.svg/32px-Electrolytic_capacitor_symbol.svg.png)  
-  - Não polarizado: ![símbolo capacitor](https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Capacitor_symbol.svg/32px-Capacitor_symbol.svg.png)
 
 ---
 
@@ -20,22 +17,36 @@ A grandeza que caracteriza o capacitor é a **capacitância (C)**, medida em **f
 
 ## 3. Tipos de Capacitores
 
-1. **Cerâmicos**  
-   - Pequenos valores de capacitância (pF a nF).  
-   - Usados em circuitos de alta frequência e desacoplamento.
+<img src="capacitores.webp" alt="capacitores" width="50%">
 
-2. **Eletrolíticos**  
+1. **Eletrolíticos**  
    - Grandes valores (µF a centenas de µF).  
    - Polarizados (têm positivo e negativo).  
    - Usados em filtros de fontes de energia.
 
-3. **Tântalo**  
+2. **Poliéster, Polipropileno, etc.**  
+   - Boa estabilidade.  
+   - Usados em áudio, RF e temporização.
+
+3. **Cerâmicos**  
+   - Pequenos valores de capacitância (pF a nF).  
+   - Usados em circuitos de alta frequência e desacoplamento.
+
+4. **Tântalo**  
    - Estáveis e com alta capacitância por volume.  
    - Também polarizados.
 
-4. **Poliéster, Polipropileno, etc.**  
-   - Boa estabilidade.  
-   - Usados em áudio, RF e temporização.
+5. **Capacitor de Mica**
+   - O material dielétrico deste capacitor, obviamente, é a mica. As placas são de prata, e estas envolvem a folha de mica. Altamente estável quanto à temperatura e possui baixa perda de carga. Muito usado sem circuitos osciladores e circuitos ressonantes.
+
+6. **Capacitor SMD**
+   - São usados em todo tipo de equipamentos eletrônicos. O material dielétrico destes capacitores pode ser de cerâmica, tântalo, entre outros. Por serem muito pequenos, geralmente são montados nos circuitos por robôs. Ele não possui terminais, este componente é de montagem em superfície.
+
+7. **Capacitor variável**
+- São usados em circuitos sintonizados, como a sintonia de um rádio. O material dielétrico geralmente é o ar, e as placas são de alumínio ou latão. Não são indicados para trabalhar em altas potencias e tensões elevadas.
+
+8. **Capacitor a Óleo e Papel**
+- Não são mais fabricados, e por isso são verdadeiras raridades. Eles eram usados em equipamentos valvulados, onde requer alta isolação. Sua composição era de fitas de alumínio enroladas em um papel embebido por óleo. 
 
 ---
 
@@ -62,16 +73,14 @@ E = \frac{1}{2} C \cdot V^2
 ## 5. Associação de Capacitores
 
 ### Em Paralelo
-\[
-C_{eq} = C_1 + C_2 + C_3 + ...
-\]
+
+`C_eq = C_1 + C_2 + C_3 + ...`
 
 - A capacitância **aumenta**.
 
 ### Em Série
-\[
-\frac{1}{C_{eq}} = \frac{1}{C_1} + \frac{1}{C_2} + ...
-\]
+
+`1 / C_eq = 1 / C1 + 1 / C2 + ...`
 
 - A capacitância **diminui**.
 
