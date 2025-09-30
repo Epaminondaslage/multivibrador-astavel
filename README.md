@@ -59,6 +59,8 @@ Ele alterna automaticamente entre dois estados, produzindo duas saídas:
 
 > **Nota:** Caso o caractere `Q̅` (Q barra) não seja exibido corretamente no seu visualizador, ele pode aparecer como **Q'** ou **Q_inv**.
 
+O coração deste circuito é o **[transistor BJT](transistor-BJT.md)**, um dispositivo semicondutor de três camadas que atua como chave ou amplificador de corrente, fundamental em inúmeros circuitos eletrônicos.
+
 ---
 
 <img src="fig1.png" alt="Circuito Multivibrador Astável" width="30%">

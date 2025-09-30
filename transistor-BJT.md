@@ -20,7 +20,7 @@ O BJT possui três terminais principais:
 - **NPN** → a corrente flui do **coletor para o emissor** quando a base recebe corrente positiva.  
 - **PNP** → a corrente flui do **emissor para o coletor** quando a base recebe corrente negativa.
 
-<img src="transistor01.jpg" alt="Transistor" width="50%">
+<img src="transistor01.jpg" alt="Transistor" width="40%">
 
 ---
 
@@ -44,6 +44,6 @@ Isso torna o BJT útil como:
 ## 5. Exemplo Prático: Acionando um LED
 
 
-    Quando aplicamos uma corrente na base, o BJT permite que a corrente flua do coletor para o emissor, acendendo o LED.
+Quando aplicamos uma corrente na base, o BJT permite que a corrente flua do coletor para o emissor, acendendo o LED.
 
-    <img src="transistor03.jpg" alt="Transistor" width="50%">
+<img src="transistor03.jpg" alt="Transistor" width="50%">
