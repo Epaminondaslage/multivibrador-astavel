@@ -23,13 +23,13 @@ Multivibrador Astável com dois Transistores
 
 | **Componente** | **Quantidade** | **Função** |
 |----------------|----------------|------------|
-| **BC547 (Q1 e Q2)** | 2 | Alternam a condução, criando a oscilação. |
-| **Capacitores 100 µF** | 2 | Definem o tempo em que cada LED fica aceso (constante de tempo). |
+| **[Transistor BJT-BC547](transistor-BJT.md) (Q1 e Q2)** | 2 | Alternam a condução, criando a oscilação. |
+| **[Capacitores](capacitores.md) 100 µF** | 2 | Definem o tempo em que cada LED fica aceso (constante de tempo). |
 | **Resistores 10 kΩ (R2 e R3)** | 2 | Polarizam as bases dos transistores. |
 | **Resistores 470 Ω (R1 e R4)** | 2 | Limitam a corrente que passa pelos LEDs. |
-| **LEDs** | 2 | Indicam visualmente a alternância do circuito. |
+| **[LEDs](tutorial-LEDs.md)** | 2 | Indicam visualmente a alternância do circuito. |
 | **Conector para fonte 5 V** | 1 | Alimenta o circuito. |
-| **Interruptor S1 (opcional)** | 1 | Liga/desliga o circuito. |
+
 
 ---
 <img src="kit.jpg" alt="kit" width="30%">
@@ -105,7 +105,7 @@ O coração deste circuito é o **[transistor BJT](transistor-BJT.md)**, um disp
 | **Q1 e Q2** | [Transistores](transistor-BJT.md) que alternam entre saturação e corte, gerando a oscilação. |
 | **C1 e C2** | [Capacitores](capacitores.md) determinam, junto com os resistores, o tempo de cada meio-ciclo da oscilação. |
 | **R2 e R3** | Controlam a polarização das bases dos transistores e definem, junto aos capacitores, a frequência. |
-| **R1 e R4** | Limitam a corrente nos LEDs ou saídas **Q** e **Q̅**. |
+| **R1 e R4** | Limitam a corrente nos [LEDs](tutorial-LEDs.md) ou saídas **Q** e **Q̅**. |
 
 
 <img src="componentes.jpg" alt="componentes" width="50%">
