@@ -276,6 +276,26 @@ f. **Geração de Arquivos Finais**
    - Conferir a tensão de alimentação.
 
 ---
+
+### ** 10. Arquivo GERBER
+
+Um **arquivo Gerber** é um tipo de arquivo padrão usado na indústria de eletrônica para **fabricar placas de circuito impresso (PCBs – Printed Circuit Boards)**.  
+
+Ele contém todas as informações gráficas necessárias para que uma fábrica consiga produzir a placa, como:  
+
+- **Trilhas de cobre** (as conexões elétricas do circuito).  
+- **Furos e pads** (onde serão soldados os componentes).  
+- **Máscara de solda** (a camada que protege o cobre).  
+- **Serigrafia** (os textos e símbolos impressos na placa).  
+- **Cortes da placa** (dimensões e contorno).  
+
+## Características principais
+- Geralmente, o projeto de PCB é exportado em **vários arquivos Gerber**, cada um representando uma camada diferente da placa.  
+- É o formato aceito pela maioria das fábricas no mundo.  
+- Costuma vir acompanhado de um **arquivo de furação (Excellon Drill)** que define os furos da placa.  
+
+Este porjeto está disponivel para download em [arq](gerber)
+
 ## C. Montagem do circuito utilizando o Arduino
 
 
