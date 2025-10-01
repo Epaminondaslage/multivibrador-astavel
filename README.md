@@ -25,8 +25,8 @@ Multivibrador Astável com dois Transistores
 |----------------|----------------|------------|
 | **[Transistor BJT-BC547](transistor-BJT.md) (Q1 e Q2)** | 2 | Alternam a condução, criando a oscilação. |
 | **[Capacitores](capacitores.md) 100 µF** | 2 | Definem o tempo em que cada LED fica aceso (constante de tempo). |
-| **Resistores 10 kΩ (R2 e R3)** | 2 | Polarizam as bases dos transistores. |
-| **Resistores 470 Ω (R1 e R4)** | 2 | Limitam a corrente que passa pelos LEDs. |
+| **[Resistores](tutorial-Resistores.md) 10 kΩ (R2 e R3)** | 2 | Polarizam as bases dos transistores. |
+| **[Resistores](tutorial-Resistores.md) 470 Ω (R1 e R4)** | 2 | Limitam a corrente que passa pelos LEDs. |
 | **[LEDs](tutorial-LEDs.md)** | 2 | Indicam visualmente a alternância do circuito. |
 | **Conector para fonte 5 V** | 1 | Alimenta o circuito. |
 
