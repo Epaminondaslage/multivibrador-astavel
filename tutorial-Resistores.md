@@ -41,17 +41,35 @@ As 2 ou 3 primeiras cores representam dígitos, a próxima é o **multiplicador*
 ---
 
 ## 5. Exemplo de Leitura
-Resistor com **faixas: Vermelho – Violeta – Marrom – Dourado**  
-- Vermelho = 2  
-- Violeta = 7  
-- Marrom = ×10  
-- Dourado = ±5%  
+# Código de Cores de Resistores
 
-**Valor:**  
-```
-27 × 10 = 270 Ω ± 5%
-```
+Os resistores fixos utilizam **faixas coloridas** para indicar seu valor nominal e tolerância.
 
+---
+
+## Resistores de 4 Faixas
+- **1ª faixa** → Primeiro dígito significativo  
+- **2ª faixa** → Segundo dígito significativo  
+- **3ª faixa** → **Multiplicador** (potência de 10)  
+- **4ª faixa** → **Tolerância** (± do valor nominal)  
+
+**Exemplo:**  
+- Vermelho (2), Violeta (7), Amarelo (×10⁴), Dourado (±5%)  
+- Valor: **270 kΩ ±5%**
+
+---
+
+## Resistores de 5 Faixas
+- **1ª faixa** → Primeiro dígito significativo  
+- **2ª faixa** → Segundo dígito significativo  
+- **3ª faixa** → Terceiro dígito significativo  
+- **4ª faixa** → **Multiplicador** (potência de 10)  
+- **5ª faixa** → **Tolerância**  
+
+**Exemplo:**  
+- Marrom (1), Preto (0), Preto (0), Laranja (×10³), Marrom (±1%)  
+- Valor: **100 kΩ ±1%**
+  
 ---
 
 ## 6. Aplicações
