@@ -294,7 +294,7 @@ Ele contém todas as informações gráficas necessárias para que uma fábrica 
 - É o formato aceito pela maioria das fábricas no mundo.  
 - Costuma vir acompanhado de um **arquivo de furação (Excellon Drill)** que define os furos da placa.  
 
-Este porjeto está disponivel para download em [arq](gerber)
+Este projeto está disponivel para download nest formato em [https://github.com/Epaminondaslage/multivibrador-astavel/blob/main/Gerber_multivibrador-astavel_PCB_multivibrador-astavel_2025-09-30.zip)](gerber)
 
 ## C. Montagem do circuito utilizando o Arduino
 
