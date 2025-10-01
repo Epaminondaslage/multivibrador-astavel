@@ -1,4 +1,4 @@
-# Tutorial Básico sobre Transistores BJT
+# Mini Tutorial sobre Transistores BJT
 
 ## 1. O que é um Transistor BJT?
 O **BJT (Bipolar Junction Transistor)** é um componente eletrônico semicondutor que pode atuar como **chave** ou **amplificador**.  
