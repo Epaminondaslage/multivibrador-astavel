@@ -39,7 +39,7 @@ Isso torna o BJT útil como:
 - **Saturação** → corrente suficiente na base → transistor **ligado**, conduzindo quase totalmente.  
 - **Ativo** → região intermediária → usado para **amplificação**.
 
-<img src="transistor-pinout.jpg" alt="Transistor pinout" width="40%">
+<img src="bc547-pinout.jpg" alt="Transistor pinout" width="40%">
   
 ---
 
