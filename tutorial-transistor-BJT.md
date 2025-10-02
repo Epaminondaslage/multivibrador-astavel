@@ -37,8 +37,10 @@ Isso torna o BJT útil como:
 ## 4. Modos de Operação
 - **Corte** → sem corrente na base → transistor **desligado**.  
 - **Saturação** → corrente suficiente na base → transistor **ligado**, conduzindo quase totalmente.  
-- **Ativo** → região intermediária → usado para **amplificação**.  
+- **Ativo** → região intermediária → usado para **amplificação**.
 
+<img src="transistor-pinout.jpg" alt="Transistor pinout" width="40%">
+  
 ---
 
 ## 5. Exemplo Prático: Acionando um LED
