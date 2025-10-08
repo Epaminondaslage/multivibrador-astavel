@@ -22,7 +22,7 @@ Multivibrador Astável com dois Transistores
 
 O sinalizador luminoso para porta de garagem é um dispositivo de segurança visual utilizado para indicar o movimento de abertura e fechamento de portas automáticas, portões basculantes, deslizantes ou seccionais. Seu principal objetivo é alertar pedestres e motoristas sobre o funcionamento da porta, evitando acidentes e garantindo maior segurança no ambiente.
 
-<img src="Sinalizador-de-Garagem.webp" alt="sinalizador" width="50%">
+<img src="Sinalizador-de-Garagem.webp" alt="sinalizador" width="30%">
 
 O sinalizador é interligado ao sistema de controle da porta de garagem, acionando-se automaticamente sempre que o motor inicia o movimento de abertura ou fechamento. Pode ser sincronizado com o relé de comando da central eletrônica, garantindo sinalização instantânea. Em versões mais avançadas, pode incluir alarme sonoro (buzzer) para reforçar o aviso.
 
