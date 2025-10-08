@@ -16,6 +16,17 @@ Multivibrador Astável com dois Transistores
 - **Comparar soluções analógica e digital**, implementando o mesmo efeito com Arduino e destacando as diferenças nos princípios de funcionamento entre hardware discreto e programação.  
 - **Estimular a análise crítica** sobre vantagens, limitações e aplicações reais do multivibrador em sistemas eletrônicos.  
 
+## Introdução 
+
+### Sinalizador para Porta de Garagem
+
+O sinalizador luminoso para porta de garagem é um dispositivo de segurança visual utilizado para indicar o movimento de abertura e fechamento de portas automáticas, portões basculantes, deslizantes ou seccionais. Seu principal objetivo é alertar pedestres e motoristas sobre o funcionamento da porta, evitando acidentes e garantindo maior segurança no ambiente.
+
+<img src="Sinalizador-de-Garagem.webp" alt="sinalizador" width="50%">
+
+O sinalizador é interligado ao sistema de controle da porta de garagem, acionando-se automaticamente sempre que o motor inicia o movimento de abertura ou fechamento. Pode ser sincronizado com o relé de comando da central eletrônica, garantindo sinalização instantânea. Em versões mais avançadas, pode incluir alarme sonoro (buzzer) para reforçar o aviso.
+
+O multivibrador astável é um circuito eletrônico que gera um sinal periódico sem necessidade de disparo externo. Em outras palavras, ele oscila continuamente entre dois estados (ligado e desligado), produzindo uma forma de onda quadrada. Essa característica faz dele a base ideal para controlar o piscar de um sinalizador.
 
 ---
 
