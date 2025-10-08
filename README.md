@@ -30,7 +30,7 @@ O multivibrador astável é um circuito eletrônico que gera um sinal periódico
 
 ---
 
-## Componentes Utilizados
+## Componentes Utilizados para montar o circuito de um sinalizador
 
 | **Componente** | **Quantidade** | **Função** |
 |----------------|----------------|------------|
