@@ -1,9 +1,8 @@
+# CEFET-MG
+## DEE- Curso de Eletrotécnica 
+## Laboratório de Instalações Prediais
 
-# DEE- Curso de Eletrotécnica 
-# Laboratório de Instalações Prediais
-
-## **Aula Prática – Confecção de PCI para Multivibrador Astável**
-
+## **Aula Prática – Montagem de um sinalizador de porta de garagem com multivibrador Astável**
 
 ## Título
 Montagem de um sinalizador de garagem com multivibrador astável transistorizado 
@@ -60,7 +59,7 @@ O multivibrador astável é um circuito eletrônico que gera um sinal periódico
 
 ## Etapas da Aula
 
-### A. Fundamentação Teórica 
+### A. Fundamentação Teórica do multivibrador astável
 
 O **multivibrador astável** é um circuito eletrônico **oscilador** que gera **ondas quadradas contínuas** sem necessidade de sinal externo.  
 Ele alterna automaticamente entre dois estados, produzindo duas saídas:
