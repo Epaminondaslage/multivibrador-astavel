@@ -6,7 +6,7 @@
 
 
 ## Título
-Multivibrador Astável com dois Transistores 
+Montagem de um sinalizador de garagem com multivibrador astável transistorizado 
 
 ## Objetivos da Prática
 
@@ -30,7 +30,7 @@ O multivibrador astável é um circuito eletrônico que gera um sinal periódico
 
 ---
 
-## Componentes Utilizados para montar o circuito de um sinalizador
+## Componentes utilizados para montar o circuito de um sinalizador
 
 | **Componente** | **Quantidade** | **Função** |
 |----------------|----------------|------------|
@@ -45,7 +45,7 @@ O multivibrador astável é um circuito eletrônico que gera um sinal periódico
 ---
 <img src="kit.jpg" alt="kit" width="30%">
 
-## Materiais para Confecção da PCI
+## Materiais para Confecção da PCI do multivibrador
 
 - Placa fenolite cobreada (5 × 7 cm)  
 - Percloreto de ferro ou solução para corrosão  
