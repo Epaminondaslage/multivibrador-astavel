@@ -1,11 +1,11 @@
-# CEFET-MG
-## DEE- Curso de Eletrotécnica 
-## Laboratório de Instalações Prediais
+<td style="width: 10%;"><img src="https://github.com/Epaminondaslage/Lab-IoT-ELE-CEFET/blob/master/img/Logo_CEFET-MG.png" width="10%" /></td>
 
-## **Aula Prática – Montagem de um sinalizador de porta de garagem com multivibrador Astável**
+## **CENTRO FEDERAL DE EDUCAÇÃO TECNOLÓGICA DE MINAS GERAIS**  
+## **Departamento de Engenharia Elétrica - CEFET-MG**  
+## **Coordenação do Curso de Eletrotécnica**  
 
-## Título
-Montagem de um sinalizador de garagem com multivibrador astável transistorizado 
+## Disciplina: **PLIP - Prática de Laboratório de Instalações Prediais**
+## Guia de Aula – Montagem de um sinalizador de garagem com multivibrador astável transistorizado 
 
 ## Objetivos da Prática
 
