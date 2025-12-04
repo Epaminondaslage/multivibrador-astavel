@@ -17,7 +17,7 @@ A grandeza que caracteriza o capacitor é a **capacitância (C)**, medida em **f
 
 ## 3. Tipos de Capacitores
 
-<img src="capacitores.webp" alt="capacitores" width="50%">
+<img src="img/capacitores.webp" alt="capacitores" width="50%">
 
 1. **Eletrolíticos**  
    - Grandes valores (µF a centenas de µF).  
@@ -99,7 +99,7 @@ Os capacitores são representados por símbolos diferentes dependendo do **tipo*
 Eles indicam se o capacitor é **polarizado** (tem positivo e negativo) ou **não polarizado**.
 
 
-<img src="simbologia_capacitores.webp" alt="simbologia_capacitores" width="30%">
+<img src="img/simbologia_capacitores.webp" alt="simbologia_capacitores" width="30%">
 
 Símbolo clássico usado em capacitores cerâmicos, de poliéster, mica, entre outros.  
 Representa apenas duas placas paralelas
