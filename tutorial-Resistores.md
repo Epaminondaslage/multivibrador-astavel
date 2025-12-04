@@ -25,7 +25,7 @@ Multiplicadores comuns:
 
 ## 3. Símbolos
 
-<img src="resistores.png" alt="resistores" width="50%">
+<img src="img/img/resistores.png" alt="resistores" width="50%">
 
 ---
 
@@ -36,7 +36,7 @@ As 2 ou 3 primeiras cores representam dígitos, a próxima é o **multiplicador*
 
 ### Tabela de Cores
 
-<img src="codigocores.png" alt="codigo de cores" width="50%">
+<img src="img/codigocores.png" alt="codigo de cores" width="50%">
 
 ---
 
