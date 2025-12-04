@@ -25,7 +25,7 @@ Multiplicadores comuns:
 
 ## 3. Símbolos
 
-<img src="img/img/resistores.png" alt="resistores" width="50%">
+<img src="img/resistores.png" alt="resistores" width="50%">
 
 ---
 
