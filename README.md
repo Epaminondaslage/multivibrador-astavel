@@ -1,12 +1,12 @@
 <td style="width: 10%;">
-    <img src="https://raw.githubusercontent.com/Epaminondaslage/Lab-IoT-ELE-CEFET/master/img/Logo_CEFET-MG.png" width="20%" />
+    <img src="img/https://raw.githubusercontent.com/Epaminondaslage/Lab-IoT-ELE-CEFET/master/img/Logo_CEFET-MG.png" width="20%" />
 </td>
 
 ## **CENTRO FEDERAL DE EDUCAÇÃO TECNOLÓGICA DE MINAS GERAIS**  
 ## **Departamento de Engenharia Elétrica - CEFET-MG**  
 ## **Coordenação do Curso de Eletrotécnica**  
 
-## Disciplina: **PLIP - Prática de Laboratório de Instalações Prediais**
+### Disciplina: **PLIEP - Prática de Laboratório de Instalações Elétricas Prediais**
 ## Guia de Aula – Montagem de um sinalizador de garagem com multivibrador astável transistorizado 
 
 ## Objetivos da Prática
@@ -23,7 +23,7 @@
 
 O sinalizador luminoso para porta de garagem é um dispositivo de segurança visual utilizado para indicar o movimento de abertura e fechamento de portas automáticas, portões basculantes, deslizantes ou seccionais. Seu principal objetivo é alertar pedestres e motoristas sobre o funcionamento da porta, evitando acidentes e garantindo maior segurança no ambiente.
 
-<img src="Sinalizador-de-Garagem.webp" alt="sinalizador" width="30%">
+<img src="img/Sinalizador-de-Garagem.webp" alt="sinalizador" width="30%">
 
 O sinalizador é interligado ao sistema de controle da porta de garagem, acionando-se automaticamente sempre que o motor inicia o movimento de abertura ou fechamento. Pode ser sincronizado com o relé de comando da central eletrônica, garantindo sinalização instantânea. Em versões mais avançadas, pode incluir alarme sonoro (buzzer) para reforçar o aviso.
 
@@ -44,7 +44,7 @@ O multivibrador astável é um circuito eletrônico que gera um sinal periódico
 
 
 ---
-<img src="kit.jpg" alt="kit" width="30%">
+<img src="img/kit.jpg" alt="kit" width="30%">
 
 ## Materiais para Confecção da PCI do multivibrador
 
@@ -75,7 +75,7 @@ O coração deste circuito é o **[transistor BJT](tutorial-transistor-BJT.md)**
 
 ---
 
-<img src="fig1.png" alt="Circuito Multivibrador Astável" width="30%">
+<img src="img/fig1.png" alt="Circuito Multivibrador Astável" width="30%">
 
 ---
 
@@ -120,7 +120,7 @@ O coração deste circuito é o **[transistor BJT](tutorial-transistor-BJT.md)**
 | **R1 e R4** | Limitam a corrente nos [LEDs](tutorial-LEDs.md) ou saídas **Q** e **Q̅**. |
 
 
-<img src="componentes.jpg" alt="componentes" width="50%">
+<img src="img/componentes.jpg" alt="componentes" width="50%">
 
 ---
 
@@ -146,7 +146,7 @@ A frequência de oscilação é dada por:
 
 ### **7.Forma de Onda**
 
-<img src="forma_onda.gif" alt="forma de onda" width="30%">
+<img src="img/forma_onda.gif" alt="forma de onda" width="30%">
 
 - A saída **Q** gera uma **onda quadrada**.  
 - A saída **Q̅** gera uma **onda quadrada invertida**, defasada 180° em relação à saída **Q**.
@@ -167,22 +167,22 @@ A frequência de oscilação é dada por:
 ### **1.Estudo do Circuito**
 Apresentar o **esquemático** do multivibrador:
 
-<img src="fig2.jpg" alt="Layout PCI Multivibrador Astável" width="40%">
+<img src="img/fig2.jpg" alt="Layout PCI Multivibrador Astável" width="40%">
 
 ---
 ### **2. Desenho do circuito com os componetntes**
 
-<img src="circuito_1.jpg" alt="Layout PCI Multivibrador Astável" width="40%">
+<img src="img/circuito_1.jpg" alt="Layout PCI Multivibrador Astável" width="40%">
 
 ---
 ### **3. Montagem do circuito em uma PCB**
 
 
-<img src="circuito_2.jpg" alt="pcb1" width="40%">
+<img src="img/circuito_2.jpg" alt="pcb1" width="40%">
 
-<img src="circuito_3.jpg" alt="pcb2" width="40%">
+<img src="img/circuito_3.jpg" alt="pcb2" width="40%">
 
-<img src="circuito_4.jpg" alt="pcb2" width="40%">
+<img src="img/circuito_4.jpg" alt="pcb2" width="40%">
 
 
 Video no Youtube: https://www.youtube.com/watch?v=0rsv6dMTNQA
@@ -230,7 +230,7 @@ f. **Geração de Arquivos Finais**
 > **Acesse a ferramenta:** [https://easyeda.com/](https://easyeda.com/)  
 > O EasyEDA é uma solução completa para projetos eletrônicos, desde a concepção até a produção.
 
-<img src="easyEDA.jpg" alt="software" width="40%">
+<img src="img/easyEDA.jpg" alt="software" width="40%">
 
 
 **Passos:**
@@ -324,4 +324,4 @@ O objetivo é criar um efeito de **pisca-pisca alternado**, onde os LEDs acendem
 - **2 LEDs** (exemplo: vermelho e verde)  
 - **2 resistores** de **220 Ω** (para limitar a corrente dos LEDs)
 
-<img src="astavel-arduino.jpg" alt="Arduino Astável" width="60%">
+<img src="img/astavel-arduino.jpg" alt="Arduino Astável" width="60%">
