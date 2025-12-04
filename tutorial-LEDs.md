@@ -46,7 +46,7 @@ R = (5 V - 2 V) / 0,015 A ≈ 200 Ω
 ## 5. Simbologia
 Símbolo elétrico do LED:
 
-<img src="leds.png" alt="les" width="30%">
+<img src="img/leds.png" alt="les" width="30%">
 
 (Setas representam emissão de luz)
 
