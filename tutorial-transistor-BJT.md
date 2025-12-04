@@ -48,4 +48,4 @@ Isso torna o BJT útil como:
 
 Quando aplicamos uma corrente na base, o BJT permite que a corrente flua do coletor para o emissor, acendendo o LED.
 
-<img src="transistor03.jpg" alt="Transistor" width="30%">
+<img src="img/transistor03.jpg" alt="Transistor" width="30%">
