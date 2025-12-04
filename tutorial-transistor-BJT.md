@@ -5,7 +5,7 @@ O **BJT (Bipolar Junction Transistor)** é um componente eletrônico semiconduto
 Ele é chamado de "bipolar" porque utiliza tanto elétrons quanto lacunas para conduzir corrente.  
 O BJT é formado por **três camadas semicondutoras** que criam duas junções (NPN ou PNP).
 
-<img src="transistor00.jpg" alt="Transistor" width="50%">
+<img src="img/transistor00.jpg" alt="Transistor" width="50%">
 
 ---
 
@@ -20,7 +20,7 @@ O BJT possui três terminais principais:
 - **NPN** → a corrente flui do **coletor para o emissor** quando a base recebe corrente positiva.  
 - **PNP** → a corrente flui do **emissor para o coletor** quando a base recebe corrente negativa.
 
-<img src="transistor01.jpg" alt="Transistor" width="40%">
+<img src="img/transistor01.jpg" alt="Transistor" width="40%">
 
 ---
 
@@ -39,7 +39,7 @@ Isso torna o BJT útil como:
 - **Saturação** → corrente suficiente na base → transistor **ligado**, conduzindo quase totalmente.  
 - **Ativo** → região intermediária → usado para **amplificação**.
 
-<img src="bc547_pinout.jpg" alt="Transistor pinout" width="40%">
+<img src="img/bc547_pinout.jpg" alt="Transistor pinout" width="40%">
   
 ---
 
